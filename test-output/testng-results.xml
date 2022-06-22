@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="36" passed="36">
+  <reporter-output>
+    <line>
+      <![CDATA[Element Btn is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Element Btn is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Elements
+ ]]>
+    </line>
+    <line>
+      <![CDATA[Textbox Btn is displayed at webpage]]>
+    </line>
+    <line>
+      <![CDATA[Textbox Btn is Enabled at webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Text Box]]>
+    </line>
+    <line>
+      <![CDATA[Successfully landed on Expected Page : https://demoqa.com/text-box]]>
+    </line>
+    <line>
+      <![CDATA[FullName Label is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Full Name]]>
+    </line>
+    <line>
+      <![CDATA[FullName Editbox is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[FullName Editbox is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected label name inside editbox is Displayed at Webpage : Full Name]]>
+    </line>
+    <line>
+      <![CDATA[User typed text is Presented in Editbox : Saitharun Sakkaram]]>
+    </line>
+    <line>
+      <![CDATA[Email Label is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Email]]>
+    </line>
+    <line>
+      <![CDATA[Email Editbox is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Email Editbox is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected label name inside editbox is Displayed at Webpage : name@example.com]]>
+    </line>
+    <line>
+      <![CDATA[User typed text is Presented in Editbox : sakkaramsaitharun.144@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[CurrentAddress Label is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Current Address]]>
+    </line>
+    <line>
+      <![CDATA[CurrentAddress Editbox is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[CurrentAddress Editbox is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected label name inside editbox is Displayed at Webpage : Current Address]]>
+    </line>
+    <line>
+      <![CDATA[User typed text is Presented in Editbox : Bheerappagadda,uppal,500039]]>
+    </line>
+    <line>
+      <![CDATA[PermanentAddress Label is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Permanent Address]]>
+    </line>
+    <line>
+      <![CDATA[PermanentAddress Editbox is Displayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[PermanentAddress Editbox is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected label name inside editbox is Displayed at Webpage : ]]>
+    </line>
+    <line>
+      <![CDATA[User typed text is Presented in Editbox : Basheerabad,Nizamabad,503225]]>
+    </line>
+    <line>
+      <![CDATA[Submit_Btn Btn is displayed at webpage]]>
+    </line>
+    <line>
+      <![CDATA[Submit_Btn Btn is Enabled at webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text is Displayed at Webpage : Submit]]>
+    </line>
+    <line>
+      <![CDATA[Name:Saitharun Sakkaram
+Email:sakkaramsaitharun.144@gmail.com
+Current Address :Bheerappagadda,uppal,500039
+Permananet Address :Basheerabad,Nizamabad,503225]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Check Box]]>
+    </line>
+    <line>
+      <![CDATA[Home Toggle Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Home Toggle Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Home Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Home Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Home]]>
+    </line>
+    <line>
+      <![CDATA[By Default Home check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Home check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Desktop Toggle Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Desktop Toggle Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Desktop Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Desktop Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Desktop]]>
+    </line>
+    <line>
+      <![CDATA[By Default Desktop check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Desktop check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Notes Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Notes Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Notes]]>
+    </line>
+    <line>
+      <![CDATA[By Default Notes check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Notes check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Commands Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Commands Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Commands]]>
+    </line>
+    <line>
+      <![CDATA[By Default Commands check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Commands check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Documents Toggle Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Documents Toggle Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Documents Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Documents Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Documents]]>
+    </line>
+    <line>
+      <![CDATA[By Default Documents check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Documents check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[WorkSpace Toggle Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[WorkSpace Toggle Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[WorkSpace Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[WorkSpace Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : WorkSpace]]>
+    </line>
+    <line>
+      <![CDATA[By Default WorkSpace check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on WorkSpace check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[React Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[React Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : React]]>
+    </line>
+    <line>
+      <![CDATA[By Default React check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on React check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Angular Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Angular Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Angular]]>
+    </line>
+    <line>
+      <![CDATA[By Default Angular check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Angular check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Veu Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Veu Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Veu]]>
+    </line>
+    <line>
+      <![CDATA[By Default Veu check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Veu check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Office Toggle Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Office Toggle Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Office Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Office Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Office]]>
+    </line>
+    <line>
+      <![CDATA[By Default Office check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Office check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Public Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Public Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Public]]>
+    </line>
+    <line>
+      <![CDATA[By Default Public check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Public check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Private Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Private Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Private]]>
+    </line>
+    <line>
+      <![CDATA[By Default Private check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Private check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Classified Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Classified Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Classified]]>
+    </line>
+    <line>
+      <![CDATA[By Default Classified check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Classified check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[General Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[General Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : General]]>
+    </line>
+    <line>
+      <![CDATA[By Default General check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on General check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Downloads Toggle Button is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Downloads Toggle Button is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Downloads Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Downloads Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Downloads]]>
+    </line>
+    <line>
+      <![CDATA[By Default Downloads check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on Downloads check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[WordFile Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[WordFile Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Word File.doc]]>
+    </line>
+    <line>
+      <![CDATA[By Default WordFile check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on WordFile check box it is selected ]]>
+    </line>
+    <line>
+      <![CDATA[ExcelFile Check Box is Diplayed at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[ExcelFile Check Box is Enabled at Webpage]]>
+    </line>
+    <line>
+      <![CDATA[Expected text is Displayed at webpage : Excel File.doc]]>
+    </line>
+    <line>
+      <![CDATA[By Default ExcelFile check box is not selected, it should not be selected by default]]>
+    </line>
+    <line>
+      <![CDATA[By clicking on ExcelFile check box it is selected ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default" duration-ms="53504" started-at="2021-06-30T01:32:00 IST" finished-at="2021-06-30T01:32:54 IST">
+    <groups>
+    </groups>
+    <test name="Default-Test" duration-ms="53504" started-at="2021-06-30T01:32:00 IST" finished-at="2021-06-30T01:32:54 IST">
+      <class name="mini_Project.Checkbox_Verification">
+        <test-method status="PASS" signature="Tc001()[pri:0, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc001" duration-ms="402" started-at="2021-06-30T01:32:27 IST" description="Verification on Checkbox Button" finished-at="2021-06-30T01:32:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkbox Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Checkbox Button is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Check Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc001 -->
+        <test-method status="PASS" signature="Tc002()[pri:1, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc002" duration-ms="167" started-at="2021-06-30T01:32:28 IST" description="Verification on Home Toggle Button" finished-at="2021-06-30T01:32:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Toggle Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Home Toggle Button is Enabled at Webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc002 -->
+        <test-method status="PASS" signature="Tc003()[pri:2, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc003" duration-ms="336" started-at="2021-06-30T01:32:28 IST" description="Verification on Home Checkbox Button" finished-at="2021-06-30T01:32:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Home Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Home]]>
+            </line>
+            <line>
+              <![CDATA[By Default Home check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Home check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc003 -->
+        <test-method status="PASS" signature="Tc004()[pri:3, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc004" duration-ms="155" started-at="2021-06-30T01:32:28 IST" description="Verification on Desktop Toggle Button" finished-at="2021-06-30T01:32:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Desktop Toggle Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Desktop Toggle Button is Enabled at Webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc004 -->
+        <test-method status="PASS" signature="Tc005()[pri:4, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc005" duration-ms="5398" started-at="2021-06-30T01:32:28 IST" description="Verification on Desktop Checkbox Button" finished-at="2021-06-30T01:32:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Desktop Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Desktop Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Desktop]]>
+            </line>
+            <line>
+              <![CDATA[By Default Desktop check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Desktop check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc005 -->
+        <test-method status="PASS" signature="Tc006()[pri:5, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc006" duration-ms="5387" started-at="2021-06-30T01:32:34 IST" description="Verification on Desktop Checkbox Button" finished-at="2021-06-30T01:32:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Notes Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Notes Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Notes]]>
+            </line>
+            <line>
+              <![CDATA[By Default Notes check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Notes check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc006 -->
+        <test-method status="PASS" signature="Tc007()[pri:6, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc007" duration-ms="5389" started-at="2021-06-30T01:32:39 IST" description="Verification on Commands Checkbox Button" finished-at="2021-06-30T01:32:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Commands Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Commands Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Commands]]>
+            </line>
+            <line>
+              <![CDATA[By Default Commands check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Commands check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc007 -->
+        <test-method status="PASS" signature="Tc008()[pri:7, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc008" duration-ms="175" started-at="2021-06-30T01:32:44 IST" description="Verification on Documents Toggle Button" finished-at="2021-06-30T01:32:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Documents Toggle Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Documents Toggle Button is Enabled at Webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc008 -->
+        <test-method status="PASS" signature="Tc009()[pri:8, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc009" duration-ms="335" started-at="2021-06-30T01:32:45 IST" description="Verification on Documents Checkbox Button" finished-at="2021-06-30T01:32:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Documents Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Documents Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Documents]]>
+            </line>
+            <line>
+              <![CDATA[By Default Documents check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Documents check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc009 -->
+        <test-method status="PASS" signature="Tc0010()[pri:9, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0010" duration-ms="152" started-at="2021-06-30T01:32:45 IST" description="Verification on WorkSpace Toggle Button" finished-at="2021-06-30T01:32:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[WorkSpace Toggle Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[WorkSpace Toggle Button is Enabled at Webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0010 -->
+        <test-method status="PASS" signature="Tc0011()[pri:10, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0011" duration-ms="365" started-at="2021-06-30T01:32:45 IST" description="Verification on WorkSpace Checkbox Button" finished-at="2021-06-30T01:32:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[WorkSpace Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[WorkSpace Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : WorkSpace]]>
+            </line>
+            <line>
+              <![CDATA[By Default WorkSpace check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on WorkSpace check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0011 -->
+        <test-method status="PASS" signature="Tc0012()[pri:11, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0012" duration-ms="331" started-at="2021-06-30T01:32:45 IST" description="Verification on React Checkbox Button" finished-at="2021-06-30T01:32:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[React Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[React Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : React]]>
+            </line>
+            <line>
+              <![CDATA[By Default React check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on React check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0012 -->
+        <test-method status="PASS" signature="Tc0013()[pri:12, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0013" duration-ms="3352" started-at="2021-06-30T01:32:46 IST" description="Verification on Angular Checkbox Button" finished-at="2021-06-30T01:32:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Angular Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Angular Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Angular]]>
+            </line>
+            <line>
+              <![CDATA[By Default Angular check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Angular check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0013 -->
+        <test-method status="PASS" signature="Tc0014()[pri:13, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0014" duration-ms="395" started-at="2021-06-30T01:32:49 IST" description="Verification on Veu Checkbox Button" finished-at="2021-06-30T01:32:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Veu Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Veu Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Veu]]>
+            </line>
+            <line>
+              <![CDATA[By Default Veu check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Veu check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0014 -->
+        <test-method status="PASS" signature="Tc0015()[pri:14, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0015" duration-ms="149" started-at="2021-06-30T01:32:50 IST" description="Verification on Office Toggle Button" finished-at="2021-06-30T01:32:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Office Toggle Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Office Toggle Button is Enabled at Webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0015 -->
+        <test-method status="PASS" signature="Tc0016()[pri:15, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0016" duration-ms="346" started-at="2021-06-30T01:32:50 IST" description="Verification on Office Checkbox Button" finished-at="2021-06-30T01:32:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Office Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Office Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Office]]>
+            </line>
+            <line>
+              <![CDATA[By Default Office check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Office check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0016 -->
+        <test-method status="PASS" signature="Tc0017()[pri:16, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0017" duration-ms="338" started-at="2021-06-30T01:32:50 IST" description="Verification on Public Checkbox Button" finished-at="2021-06-30T01:32:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Public Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Public Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Public]]>
+            </line>
+            <line>
+              <![CDATA[By Default Public check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Public check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0017 -->
+        <test-method status="PASS" signature="Tc0018()[pri:17, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0018" duration-ms="358" started-at="2021-06-30T01:32:50 IST" description="Verification on Private Checkbox Button" finished-at="2021-06-30T01:32:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Private Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Private Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Private]]>
+            </line>
+            <line>
+              <![CDATA[By Default Private check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Private check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0018 -->
+        <test-method status="PASS" signature="Tc0019()[pri:18, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0019" duration-ms="326" started-at="2021-06-30T01:32:51 IST" description="Verification on Classified Checkbox Button" finished-at="2021-06-30T01:32:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Classified Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Classified Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Classified]]>
+            </line>
+            <line>
+              <![CDATA[By Default Classified check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Classified check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0019 -->
+        <test-method status="PASS" signature="Tc0020()[pri:19, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0020" duration-ms="343" started-at="2021-06-30T01:32:51 IST" description="Verification on General Checkbox Button" finished-at="2021-06-30T01:32:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[General Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[General Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : General]]>
+            </line>
+            <line>
+              <![CDATA[By Default General check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on General check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0020 -->
+        <test-method status="PASS" signature="Tc0021()[pri:20, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0021" duration-ms="153" started-at="2021-06-30T01:32:51 IST" description="Verification on Downloads Toggle Button" finished-at="2021-06-30T01:32:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Downloads Toggle Button is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Downloads Toggle Button is Enabled at Webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0021 -->
+        <test-method status="PASS" signature="Tc0022()[pri:21, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0022" duration-ms="345" started-at="2021-06-30T01:32:52 IST" description="Verification on Downloads Checkbox Button" finished-at="2021-06-30T01:32:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Downloads Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Downloads Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Downloads]]>
+            </line>
+            <line>
+              <![CDATA[By Default Downloads check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on Downloads check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0022 -->
+        <test-method status="PASS" signature="Tc0023()[pri:22, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0023" duration-ms="328" started-at="2021-06-30T01:32:52 IST" description="Verification on WordFile Checkbox Button" finished-at="2021-06-30T01:32:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[WordFile Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[WordFile Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Word File.doc]]>
+            </line>
+            <line>
+              <![CDATA[By Default WordFile check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on WordFile check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0023 -->
+        <test-method status="PASS" signature="Tc0024()[pri:23, instance:mini_Project.Checkbox_Verification@3234e239]" name="Tc0024" duration-ms="359" started-at="2021-06-30T01:32:52 IST" description="Verification on ExcelFile Checkbox Button" finished-at="2021-06-30T01:32:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ExcelFile Check Box is Diplayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[ExcelFile Check Box is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected text is Displayed at webpage : Excel File.doc]]>
+            </line>
+            <line>
+              <![CDATA[By Default ExcelFile check box is not selected, it should not be selected by default]]>
+            </line>
+            <line>
+              <![CDATA[By clicking on ExcelFile check box it is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0024 -->
+      </class> <!-- mini_Project.Checkbox_Verification -->
+      <class name="mini_Project.Element_Textbox_Verification">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="beforeTest" is-config="true" duration-ms="16639" started-at="2021-06-30T01:32:00 IST" finished-at="2021-06-30T01:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Tc001()[pri:0, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc001" duration-ms="3747" started-at="2021-06-30T01:32:18 IST" description="Verification on Element Btn" finished-at="2021-06-30T01:32:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Element Btn is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Element Btn is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Elements
+ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc001 -->
+        <test-method status="PASS" signature="Tc002()[pri:1, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc002" duration-ms="285" started-at="2021-06-30T01:32:22 IST" description="Verification on Textbox Btn" finished-at="2021-06-30T01:32:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Textbox Btn is displayed at webpage]]>
+            </line>
+            <line>
+              <![CDATA[Textbox Btn is Enabled at webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Text Box]]>
+            </line>
+            <line>
+              <![CDATA[Successfully landed on Expected Page : https://demoqa.com/text-box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc002 -->
+        <test-method status="PASS" signature="Tc003()[pri:2, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc003" duration-ms="146" started-at="2021-06-30T01:32:23 IST" description="Verification on Full Name Label" finished-at="2021-06-30T01:32:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[FullName Label is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Full Name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc003 -->
+        <test-method status="PASS" signature="Tc004()[pri:3, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc004" duration-ms="738" started-at="2021-06-30T01:32:23 IST" description="Verification on FullName Editbox" finished-at="2021-06-30T01:32:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[FullName Editbox is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[FullName Editbox is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected label name inside editbox is Displayed at Webpage : Full Name]]>
+            </line>
+            <line>
+              <![CDATA[User typed text is Presented in Editbox : Saitharun Sakkaram]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc004 -->
+        <test-method status="PASS" signature="Tc005()[pri:4, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc005" duration-ms="103" started-at="2021-06-30T01:32:23 IST" description="Verification on Email Label" finished-at="2021-06-30T01:32:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Email Label is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Email]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc005 -->
+        <test-method status="PASS" signature="Tc006()[pri:5, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc006" duration-ms="410" started-at="2021-06-30T01:32:24 IST" description="Verification on Email Editbox" finished-at="2021-06-30T01:32:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Email Editbox is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Email Editbox is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected label name inside editbox is Displayed at Webpage : name@example.com]]>
+            </line>
+            <line>
+              <![CDATA[User typed text is Presented in Editbox : sakkaramsaitharun.144@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc006 -->
+        <test-method status="PASS" signature="Tc007()[pri:6, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc007" duration-ms="100" started-at="2021-06-30T01:32:24 IST" description="Verification on Current Address Label" finished-at="2021-06-30T01:32:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CurrentAddress Label is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Current Address]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc007 -->
+        <test-method status="PASS" signature="Tc008()[pri:7, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc008" duration-ms="422" started-at="2021-06-30T01:32:24 IST" description="Verification on CurrentAddress Editbox" finished-at="2021-06-30T01:32:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CurrentAddress Editbox is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[CurrentAddress Editbox is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected label name inside editbox is Displayed at Webpage : Current Address]]>
+            </line>
+            <line>
+              <![CDATA[User typed text is Presented in Editbox : Bheerappagadda,uppal,500039]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc008 -->
+        <test-method status="PASS" signature="Tc009()[pri:8, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc009" duration-ms="86" started-at="2021-06-30T01:32:24 IST" description="Verification on Permanent Address Label" finished-at="2021-06-30T01:32:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[PermanentAddress Label is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Permanent Address]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc009 -->
+        <test-method status="PASS" signature="Tc0010()[pri:9, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc0010" duration-ms="381" started-at="2021-06-30T01:32:25 IST" description="Verification on Permanent Address Editbox" finished-at="2021-06-30T01:32:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[PermanentAddress Editbox is Displayed at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[PermanentAddress Editbox is Enabled at Webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected label name inside editbox is Displayed at Webpage : ]]>
+            </line>
+            <line>
+              <![CDATA[User typed text is Presented in Editbox : Basheerabad,Nizamabad,503225]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0010 -->
+        <test-method status="PASS" signature="Tc0011()[pri:10, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc0011" duration-ms="2180" started-at="2021-06-30T01:32:25 IST" description="Verification on Submit button" finished-at="2021-06-30T01:32:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Submit_Btn Btn is displayed at webpage]]>
+            </line>
+            <line>
+              <![CDATA[Submit_Btn Btn is Enabled at webpage]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text is Displayed at Webpage : Submit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0011 -->
+        <test-method status="PASS" signature="Tc0012()[pri:11, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="Tc0012" duration-ms="50" started-at="2021-06-30T01:32:27 IST" description="Verification on Submit button" finished-at="2021-06-30T01:32:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Name:Saitharun Sakkaram
+Email:sakkaramsaitharun.144@gmail.com
+Current Address :Bheerappagadda,uppal,500039
+Permananet Address :Basheerabad,Nizamabad,503225]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc0012 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mini_Project.Element_Textbox_Verification@6f195bc3]" name="afterTest" is-config="true" duration-ms="1251" started-at="2021-06-30T01:32:53 IST" finished-at="2021-06-30T01:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mini_Project.Element_Textbox_Verification -->
+    </test> <!-- Default-Test -->
+  </suite> <!-- Default -->
+</testng-results>

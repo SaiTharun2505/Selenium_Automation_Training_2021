@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="mini_Project.Checkbox_Verification">
+        <methods>
+          <include name="Tc003"/>
+          <include name="Tc006"/>
+          <include name="Tc0010"/>
+          <include name="Tc0021"/>
+          <include name="Tc004"/>
+          <include name="Tc0011"/>
+          <include name="Tc0022"/>
+          <include name="Tc002"/>
+          <include name="Tc0020"/>
+          <include name="Tc005"/>
+          <include name="Tc001"/>
+          <include name="Tc007"/>
+          <include name="Tc008"/>
+          <include name="Tc009"/>
+          <include name="Tc0014"/>
+          <include name="Tc0015"/>
+          <include name="Tc0012"/>
+          <include name="Tc0023"/>
+          <include name="Tc0013"/>
+          <include name="Tc0024"/>
+          <include name="Tc0018"/>
+          <include name="Tc0019"/>
+          <include name="Tc0016"/>
+          <include name="Tc0017"/>
+        </methods>
+      </class> <!-- mini_Project.Checkbox_Verification -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

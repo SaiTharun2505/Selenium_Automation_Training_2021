@@ -1,0 +1,614 @@
+<html>
+<head>
+<title>TestNG:  Default-Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default-Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 30 01:32:00 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53504 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0018()'><b>Tc0018</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Private Checkbox Button<br/>
+<a href="#Output-421163163" onClick='toggleBox("Output-421163163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-421163163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-421163163">
+Private Check Box is Diplayed at Webpage<br/>
+Private Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Private<br/>
+By Default Private check box is not selected, it should not be selected by default<br/>
+By clicking on Private check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc008()'><b>Tc008</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on CurrentAddress Editbox<br/>
+<a href="#Output-354605216" onClick='toggleBox("Output-354605216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-354605216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-354605216">
+CurrentAddress Editbox is Displayed at Webpage<br/>
+CurrentAddress Editbox is Enabled at Webpage<br/>
+Expected label name inside editbox is Displayed at Webpage : Current Address<br/>
+User typed text is Presented in Editbox : Bheerappagadda,uppal,500039<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc004()'><b>Tc004</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on FullName Editbox<br/>
+<a href="#Output-692743054" onClick='toggleBox("Output-692743054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-692743054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-692743054">
+FullName Editbox is Displayed at Webpage<br/>
+FullName Editbox is Enabled at Webpage<br/>
+Expected label name inside editbox is Displayed at Webpage : Full Name<br/>
+User typed text is Presented in Editbox : Saitharun Sakkaram<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc009()'><b>Tc009</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Documents Checkbox Button<br/>
+<a href="#Output-1251285265" onClick='toggleBox("Output-1251285265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1251285265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1251285265">
+Documents Check Box is Diplayed at Webpage<br/>
+Documents Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Documents<br/>
+By Default Documents check box is not selected, it should not be selected by default<br/>
+By clicking on Documents check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc001()'><b>Tc001</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Checkbox Button<br/>
+<a href="#Output-40875560" onClick='toggleBox("Output-40875560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-40875560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-40875560">
+Checkbox Button is Diplayed at Webpage<br/>
+Checkbox Button is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Check Box<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc004()'><b>Tc004</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Desktop Toggle Button<br/>
+<a href="#Output-1443900956" onClick='toggleBox("Output-1443900956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443900956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443900956">
+Desktop Toggle Button is Diplayed at Webpage<br/>
+Desktop Toggle Button is Enabled at Webpage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc003()'><b>Tc003</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Home Checkbox Button<br/>
+<a href="#Output-2075372030" onClick='toggleBox("Output-2075372030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075372030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075372030">
+Home Check Box is Diplayed at Webpage<br/>
+Home Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Home<br/>
+By Default Home check box is not selected, it should not be selected by default<br/>
+By clicking on Home check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0010()'><b>Tc0010</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on WorkSpace Toggle Button<br/>
+<a href="#Output-1725266971" onClick='toggleBox("Output-1725266971", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1725266971" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1725266971">
+WorkSpace Toggle Button is Diplayed at Webpage<br/>
+WorkSpace Toggle Button is Enabled at Webpage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc007()'><b>Tc007</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Current Address Label<br/>
+<a href="#Output-200404000" onClick='toggleBox("Output-200404000", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-200404000" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-200404000">
+CurrentAddress Label is Displayed at Webpage<br/>
+Expected Text is Displayed at Webpage : Current Address<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0015()'><b>Tc0015</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Office Toggle Button<br/>
+<a href="#Output-1706790953" onClick='toggleBox("Output-1706790953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1706790953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1706790953">
+Office Toggle Button is Diplayed at Webpage<br/>
+Office Toggle Button is Enabled at Webpage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc008()'><b>Tc008</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Documents Toggle Button<br/>
+<a href="#Output-1103505488" onClick='toggleBox("Output-1103505488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1103505488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1103505488">
+Documents Toggle Button is Diplayed at Webpage<br/>
+Documents Toggle Button is Enabled at Webpage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc002()'><b>Tc002</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Textbox Btn<br/>
+<a href="#Output-693267461" onClick='toggleBox("Output-693267461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-693267461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-693267461">
+Textbox Btn is displayed at webpage<br/>
+Textbox Btn is Enabled at webpage<br/>
+Expected Text is Displayed at Webpage : Text Box<br/>
+Successfully landed on Expected Page : https://demoqa.com/text-box<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0013()'><b>Tc0013</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Angular Checkbox Button<br/>
+<a href="#Output-816804727" onClick='toggleBox("Output-816804727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-816804727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-816804727">
+Angular Check Box is Diplayed at Webpage<br/>
+Angular Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Angular<br/>
+By Default Angular check box is not selected, it should not be selected by default<br/>
+By clicking on Angular check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc001()'><b>Tc001</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Element Btn<br/>
+<a href="#Output-1533985074" onClick='toggleBox("Output-1533985074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1533985074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1533985074">
+Element Btn is Displayed at Webpage<br/>
+Element Btn is Enabled at Webpage<br/>
+Expected Text is Displayed at Webpage : Elements
+ <br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc006()'><b>Tc006</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Email Editbox<br/>
+<a href="#Output-922807452" onClick='toggleBox("Output-922807452", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-922807452" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-922807452">
+Email Editbox is Displayed at Webpage<br/>
+Email Editbox is Enabled at Webpage<br/>
+Expected label name inside editbox is Displayed at Webpage : name@example.com<br/>
+User typed text is Presented in Editbox : sakkaramsaitharun.144@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0016()'><b>Tc0016</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Office Checkbox Button<br/>
+<a href="#Output-394349340" onClick='toggleBox("Output-394349340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-394349340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-394349340">
+Office Check Box is Diplayed at Webpage<br/>
+Office Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Office<br/>
+By Default Office check box is not selected, it should not be selected by default<br/>
+By clicking on Office check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc006()'><b>Tc006</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Desktop Checkbox Button<br/>
+<a href="#Output-1369468094" onClick='toggleBox("Output-1369468094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1369468094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1369468094">
+Notes Check Box is Diplayed at Webpage<br/>
+Notes Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Notes<br/>
+By Default Notes check box is not selected, it should not be selected by default<br/>
+By clicking on Notes check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc009()'><b>Tc009</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Permanent Address Label<br/>
+<a href="#Output-2054757222" onClick='toggleBox("Output-2054757222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2054757222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2054757222">
+PermanentAddress Label is Displayed at Webpage<br/>
+Expected Text is Displayed at Webpage : Permanent Address<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc005()'><b>Tc005</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Email Label<br/>
+<a href="#Output-1718906711" onClick='toggleBox("Output-1718906711", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1718906711" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1718906711">
+Email Label is Displayed at Webpage<br/>
+Expected Text is Displayed at Webpage : Email<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0022()'><b>Tc0022</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Downloads Checkbox Button<br/>
+<a href="#Output-288169102" onClick='toggleBox("Output-288169102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288169102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288169102">
+Downloads Check Box is Diplayed at Webpage<br/>
+Downloads Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Downloads<br/>
+By Default Downloads check box is not selected, it should not be selected by default<br/>
+By clicking on Downloads check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0012()'><b>Tc0012</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on React Checkbox Button<br/>
+<a href="#Output-1544067887" onClick='toggleBox("Output-1544067887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1544067887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1544067887">
+React Check Box is Diplayed at Webpage<br/>
+React Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : React<br/>
+By Default React check box is not selected, it should not be selected by default<br/>
+By clicking on React check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0020()'><b>Tc0020</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on General Checkbox Button<br/>
+<a href="#Output-962927234" onClick='toggleBox("Output-962927234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-962927234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-962927234">
+General Check Box is Diplayed at Webpage<br/>
+General Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : General<br/>
+By Default General check box is not selected, it should not be selected by default<br/>
+By clicking on General check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc007()'><b>Tc007</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Commands Checkbox Button<br/>
+<a href="#Output-1296910502" onClick='toggleBox("Output-1296910502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1296910502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1296910502">
+Commands Check Box is Diplayed at Webpage<br/>
+Commands Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Commands<br/>
+By Default Commands check box is not selected, it should not be selected by default<br/>
+By clicking on Commands check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0023()'><b>Tc0023</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on WordFile Checkbox Button<br/>
+<a href="#Output-793808700" onClick='toggleBox("Output-793808700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793808700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793808700">
+WordFile Check Box is Diplayed at Webpage<br/>
+WordFile Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Word File.doc<br/>
+By Default WordFile check box is not selected, it should not be selected by default<br/>
+By clicking on WordFile check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0011()'><b>Tc0011</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on WorkSpace Checkbox Button<br/>
+<a href="#Output-1610372241" onClick='toggleBox("Output-1610372241", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610372241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610372241">
+WorkSpace Check Box is Diplayed at Webpage<br/>
+WorkSpace Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : WorkSpace<br/>
+By Default WorkSpace check box is not selected, it should not be selected by default<br/>
+By clicking on WorkSpace check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc003()'><b>Tc003</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Full Name Label<br/>
+<a href="#Output-888287133" onClick='toggleBox("Output-888287133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888287133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888287133">
+FullName Label is Displayed at Webpage<br/>
+Expected Text is Displayed at Webpage : Full Name<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0017()'><b>Tc0017</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Public Checkbox Button<br/>
+<a href="#Output-945747249" onClick='toggleBox("Output-945747249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-945747249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-945747249">
+Public Check Box is Diplayed at Webpage<br/>
+Public Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Public<br/>
+By Default Public check box is not selected, it should not be selected by default<br/>
+By clicking on Public check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc005()'><b>Tc005</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Desktop Checkbox Button<br/>
+<a href="#Output-6559830" onClick='toggleBox("Output-6559830", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6559830" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6559830">
+Desktop Check Box is Diplayed at Webpage<br/>
+Desktop Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Desktop<br/>
+By Default Desktop check box is not selected, it should not be selected by default<br/>
+By clicking on Desktop check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0014()'><b>Tc0014</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Veu Checkbox Button<br/>
+<a href="#Output-1273895132" onClick='toggleBox("Output-1273895132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1273895132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1273895132">
+Veu Check Box is Diplayed at Webpage<br/>
+Veu Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Veu<br/>
+By Default Veu check box is not selected, it should not be selected by default<br/>
+By clicking on Veu check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0019()'><b>Tc0019</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Classified Checkbox Button<br/>
+<a href="#Output-87845070" onClick='toggleBox("Output-87845070", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-87845070" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-87845070">
+Classified Check Box is Diplayed at Webpage<br/>
+Classified Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Classified<br/>
+By Default Classified check box is not selected, it should not be selected by default<br/>
+By clicking on Classified check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc002()'><b>Tc002</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Home Toggle Button<br/>
+<a href="#Output-1228798862" onClick='toggleBox("Output-1228798862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1228798862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1228798862">
+Home Toggle Button is Diplayed at Webpage<br/>
+Home Toggle Button is Enabled at Webpage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc0011()'><b>Tc0011</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Submit button<br/>
+<a href="#Output-1662912171" onClick='toggleBox("Output-1662912171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1662912171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1662912171">
+Submit_Btn Btn is displayed at webpage<br/>
+Submit_Btn Btn is Enabled at webpage<br/>
+Expected Text is Displayed at Webpage : Submit<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc0012()'><b>Tc0012</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Submit button<br/>
+<a href="#Output-295640874" onClick='toggleBox("Output-295640874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-295640874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-295640874">
+Name:Saitharun Sakkaram
+Email:sakkaramsaitharun.144@gmail.com
+Current Address :Bheerappagadda,uppal,500039
+Permananet Address :Basheerabad,Nizamabad,503225<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0021()'><b>Tc0021</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on Downloads Toggle Button<br/>
+<a href="#Output-1855997464" onClick='toggleBox("Output-1855997464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1855997464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1855997464">
+Downloads Toggle Button is Diplayed at Webpage<br/>
+Downloads Toggle Button is Enabled at Webpage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Checkbox_Verification.Tc0024()'><b>Tc0024</b><br>Test class: mini_Project.Checkbox_Verification<br>Test method: Verification on ExcelFile Checkbox Button<br/>
+<a href="#Output-1214753695" onClick='toggleBox("Output-1214753695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1214753695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1214753695">
+ExcelFile Check Box is Diplayed at Webpage<br/>
+ExcelFile Check Box is Enabled at Webpage<br/>
+Expected text is Displayed at webpage : Excel File.doc<br/>
+By Default ExcelFile check box is not selected, it should not be selected by default<br/>
+By clicking on ExcelFile check box it is selected <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Checkbox_Verification@3234e239</td></tr>
+<tr>
+<td title='mini_Project.Element_Textbox_Verification.Tc0010()'><b>Tc0010</b><br>Test class: mini_Project.Element_Textbox_Verification<br>Test method: Verification on Permanent Address Editbox<br/>
+<a href="#Output-1699578227" onClick='toggleBox("Output-1699578227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1699578227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1699578227">
+PermanentAddress Editbox is Displayed at Webpage<br/>
+PermanentAddress Editbox is Enabled at Webpage<br/>
+Expected label name inside editbox is Displayed at Webpage : <br/>
+User typed text is Presented in Editbox : Basheerabad,Nizamabad,503225<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mini_Project.Element_Textbox_Verification@6f195bc3</td></tr>
+</table><p>
+</body>
+</html>
